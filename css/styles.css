@@ -474,7 +474,8 @@ border-radius: 0px 0px 4px 4px;
     fill: currentColor;
 }
 
-.client-icon-link:hover{
+.client-icon-link:hover,
+.client-icon-link:focus {
     color: var(--accent-color);
     fill: var(--accent-color);
     border-color: var(--accent-color);
@@ -599,6 +600,7 @@ margin-top: 9px;
     fill: var(--white-color);
 }
 
-.footer-social .link-icon:hover {
+.footer-social .link-icon:hover,
+.footer-social .link-icon:focus {
     background-color: var(--accent-color);
 }
